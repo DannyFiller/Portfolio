@@ -1,0 +1,74 @@
+#navbar-container{
+    position: sticky;
+    top: 30px;
+    width: 900px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 10px 1px gray;
+    border-radius: 15px;
+    border: 1px;
+    /* border-style: sol; */
+    z-index: 10;
+}
+
+.nav-item>a{
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    /* opacity: 0.8; */
+    cursor: pointer;
+}
+
+.nav-item> a:not([href]) {
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.name-nav{
+    font-size: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px ;
+    color: white;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    padding-inline: 10px ;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px 1px #8942a8b5;
+    background: linear-gradient(to left, #8942a8, hsl(4, 60%, 46%));
+    /* cursor: pointer; */
+}
+
+.github>a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item>a:hover{
+    color: white;
+    border-radius: 15px;
+    background: linear-gradient(to left, #8942a8, hsl(4, 60%, 46%));
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.github:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+

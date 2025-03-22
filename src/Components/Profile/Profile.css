@@ -1,0 +1,39 @@
+#container-profile{
+    max-height: 1000px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+}
+
+/* container-fluid d-flex justify-content-center m-4 p-4 */
+
+.img-wrapper{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}
+
+.name{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.intro-1{
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to left, #8942a8, hsl(4, 60%, 46%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #container-profile{
+        flex-wrap: wrap;
+    }
+  }
