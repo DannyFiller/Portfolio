@@ -29,7 +29,7 @@ const ProjectList = () => {
         </div>
         <div className="project-item">
           <img className="img-wrappepr" src="./images/CarRent.png"></img>
-          <div className="body-title">Website Cửa Hàng Tạp Hỏa</div>
+          <div className="body-title">App Thuê Xe</div>
           <div className="body-item">
             <div className="body-item-1">
               <a href="https://github.com/DannyFiller/App_thuexe.git">
