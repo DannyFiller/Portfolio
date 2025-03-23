@@ -1,4 +1,6 @@
 #navbar-container{
+    display: flex;
+    justify-content: center;
     position: sticky;
     top: 30px;
     width: 900px;
@@ -52,6 +54,19 @@
     background: linear-gradient(to left, #8942a8, hsl(4, 60%, 46%));
     /* cursor: pointer; */
 }
+.github-mobile{
+    display: none;
+    align-items: center;
+    padding-inline: 10px ;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px 1px #8942a8b5;
+    background: linear-gradient(to left, #8942a8, hsl(4, 60%, 46%));
+    /* cursor: pointer; */
+}
 
 .github>a{
     color: white;
@@ -71,4 +86,32 @@
     transform: scale(1.05);
 }
 
+.github-mobile{
+    opacity: 0.9;
+    transform: scale(1.05);
+}
 
+
+@media only screen and (max-width: 600px) {
+    #navbar-container{
+        width: 80%;
+    }
+    .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+    .name-nav{
+        display: none;
+    }
+    .github{
+        display: none;
+    }
+    .github-mobile{
+        display: block;
+        padding: 10px;
+    }
+    .github-mobile>a{
+        color: white;
+        text-decoration: none;
+    }
+  }
