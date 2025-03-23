@@ -47,4 +47,8 @@
     #container-profile{
         flex-wrap: wrap;
     }
+    .img-wrapper{
+        width: 300px;
+        height: 300px;
+    }
   }
